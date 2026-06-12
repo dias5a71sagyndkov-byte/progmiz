@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genshin Impact Wishes</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    background: radial-gradient(circle at top, #4b6cb7, #182848);
+    color: #f7f7ff;
+  }
+
+  .page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 480px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 28px;
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.25);
+    padding: 36px;
+  }
+
+  h1 {
+    margin: 0 0 12px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  p {
+    margin: 0 0 24px;
+    opacity: 0.9;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .field {
+    display: grid;
+    gap: 16px;
+  }
+
+  input {
+    width: 100%;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  button {
+    cursor: pointer;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ff4d79, #ffb86c);
+    color: #111;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 28px rgba(255, 77, 121, 0.23);
+  }
+
+  .result {
+    margin-top: 24px;
+    padding: 18px 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.12);
+    text-align: center;
+  }
+
+  .count {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+  }
+
+  .note {
+    margin-top: 10px;
+    opacity: 0.85;
+    font-size: 0.95rem;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <section class="card">
+    <h1>Genshin Impact Wishes</h1>
+    <p>Узнай количество полученных круток по твоему игровому ID. Регистрация проводится через ID, а сайт имеет красивый и современный вид.</p>
+    <div class="field">
+      <input id="userId" type="text" placeholder="Введите ваш игровой ID" autocomplete="off">
+      <button id="showBtn">Показать количество круток</button>
+    </div>
+    <div class="result" id="result" hidden>
+      <div class="count" id="wishCount">0</div>
+      <div class="note" id="resultNote">Введите ID и нажмите кнопку.</div>
+    </div>
+  </section>
+</div>
+<script>
+  const input = document.getElementById('userId');
+  const button = document.getElementById('showBtn');
+  const result = document.getElementById('result');
+  const countEl = document.getElementById('wishCount');
+  const note = document.getElementById('resultNote');
+
+  function hashId(value) {
+    let hash = 0;
+    for (let i = 0; i < value.length; i++) {
+      hash = (hash * 31 + value.charCodeAt(i)) >>> 0;
+    }
+    return hash;
+  }
+
+  function getWishCount(id) {
+    const seed = hashId(id.trim());
+    const base = 20 + (seed % 250);
+    const bonus = (seed >>> 8) % 51;
+    return base + bonus;
+  }
+
+  button.addEventListener('click', () => {
+    const id = input.value.trim();
+    if (!id) {
+      note.textContent = 'Пожалуйста, введите игровой ID.';
+      countEl.textContent = '0';
+      result.hidden = false;
+      return;
+    }
+    const wishes = getWishCount(id);
+    countEl.textContent = wishes.toLocaleString('ru-RU');
+    note.textContent = `ID "${id}" зарегистрирован. Количество полученных круток:`;
+    result.hidden = false;
+  });
+
+  input.addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+      button.click();
+    }
+  });
+</script>
+</body>
+</html>

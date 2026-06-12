@@ -1,0 +1,25 @@
+.h1{
+    display:inline;
+}
+.p{
+    display:inline;
+}
+.kartihka{
+    display:block;
+}
+.a{
+    display:block;
+     margin: 0 auto;
+    text-align: center;
+
+}
+.p2{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+.kartihka2{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
