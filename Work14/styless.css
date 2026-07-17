@@ -1,0 +1,45 @@
+.container{
+    height: 2000px;
+}
+.statik{
+    position: static;
+    color: #2C2D35;
+    background-color: #E1EDE6;
+    font-size: 20px;
+    font-weight: 500;
+}
+.relative{
+    position: relative;
+    color: #2C2D35;
+    background-color: #E1EDE6;
+    font-size: 20px;
+    font-weight: 500;
+    top: 100px;
+    left: 100px;
+}
+.absolute{
+    position: absolute;
+    color: #2C2D35;
+    background-color: #E1EDE6;
+    font-size: 20px;
+    font-weight: 500;
+    bottom: 100px;
+    right: 100px;
+}
+.fixed{
+    position: fixed;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+   top: 900px;
+    left: 1800px;
+
+}
+.sticky{
+    position: sticky;
+    color: #2C2D35;
+    background-color: #E1EDE6;
+    font-size: 20px;
+    font-weight: 500;
+    top: 10px;
+}
