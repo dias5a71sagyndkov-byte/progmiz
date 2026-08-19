@@ -24,6 +24,9 @@ letter-spacing: 0%;
 color: #2E363E;
 margin-top: 50px;
 margin-left: 44px;
+width: 247px;
+height: 35px;
+
 
 }
 .description{
@@ -35,6 +38,10 @@ letter-spacing: 0%;
 color: #2E363E;
 margin-top: 12px;
 margin-left: 44px;
+width: 240px;
+height: 48px;
+
+
 }
 .price{
     font-family: Montserrat;
