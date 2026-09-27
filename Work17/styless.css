@@ -1,0 +1,619 @@
+
+.logo{
+    display: flex;
+}
+.von{
+    background-image: url('C:/Users/Intel/Desktop/programiz/5dc809ddbfb3c6e3fae3f83fa01788f54216b1df.jpg');
+    width: 1280px;
+    height: 1268px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131313;
+    width: 1280px;
+    height: 64px;
+    max-width: 1920px;
+
+
+}
+.logo1{
+    width: 132px;
+    height: 40px;
+    margin-left: 32px;
+}
+.active1{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    border: none;
+    width: 36.97999954223633px;
+    height: 26px;
+    padding-bottom: 4px;
+    border-bottom-width: 2px;
+    border-bottom: 2px solid #E2231A;
+    margin-left: 32px;
+}
+.active{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #E7BDB7;
+    border: none;
+    margin-left: 16px;
+
+}
+.nav-links{
+    border: none;
+}
+.search-input{
+    font-family: Hanken Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    background-color:#E7BDB7;
+    background-color:transparent;
+    border: none;
+
+
+
+}
+.search-icon{
+    width: 18px;
+    height: 18px;
+    color: #E7BDB7;
+    margin-right: 11px;
+    margin-top: 19px;
+    margin-left: 16px;
+
+
+}
+.search-bar{
+    width: 512px;
+    height: 58px;
+    border-radius: 8px;
+    border-width: 1px;
+    background: #353534;
+    border: 1px solid #5D3F3B;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 44px;
+
+}
+.logo2{
+    width: 38px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 16px;
+
+}
+.logo3{
+    width: 32px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 16px;
+}
+.logo4{
+    width: 36.099998474121094px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 16px;
+
+}
+.logo5{
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    border-width: 1px;
+    background: #2A2A2A;
+    border: 1px solid #5D3F3B;
+    margin-right: 16px;
+
+}
+.main{
+    width: 1280px;
+    height: 1204px;
+    min-height: 1204px;
+    gap: 48px;
+    padding: 40px;
+
+}
+.player{
+    width: 1200px;
+    height: 248px;
+    padding-bottom: 30.32px;
+    border-radius: 12px;
+    border-width: 1px;
+    background: #2A2A2A;
+    border: 1px solid #5D3F3B;
+    margin-top: 40px;
+    display: flex;
+}
+.logo6{
+    border-radius: 16px;
+    border-width: 4px;
+    width: 185.35877990722656px;
+    height: 185.35728454589844px;
+    margin-left: 19.32px;
+    margin-top: 30.32px;
+
+
+}
+.Hello{
+    font-family: Sora;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    color: #E5E2E1;
+    margin-left: 19.32px;
+    margin-top: 34px;
+    display: block;
+    
+
+}
+.Ready{
+    font-family: Hanken Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #E7BDB7;
+    display: block;
+    margin-top: 8px;
+
+}
+.Friends{
+    width: 176.51998901367188px;
+    height: 38px;
+    gap: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background: #201F1F;
+    border: 1px solid #5D3F3B;
+    margin-top: 16px;
+    margin-right: 16px;
+    display: flex;
+}
+.logo7{
+    width: 24px;
+    height: 12px;
+    margin-top: 12px;
+    margin-right: 4px;
+    margin-left: 16px;
+}
+.Online{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    margin-top: 8px;
+
+
+
+
+}
+.Architect{
+    width: 175.91000366210938px;
+    height: 38px;
+    gap: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background: #201F1F;
+    border: 1px solid #5D3F3B;
+    margin-top: 16px;
+    display: flex;
+
+
+}
+.logo8{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 16px;
+}
+.qwe{
+    display: flex;
+}
+.Level{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    margin-top: 8px;
+
+}
+.Continue{
+    width: 1200px;
+    height: 284px;
+    gap: 24px;
+    margin-top: 48px;
+    display: block;
+}
+.Playing{
+    font-family: Sora;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.32px;
+vertical-align: middle;
+color: #E5E2E1;
+
+
+}
+.logo9{
+    width: 256px;
+height: 144px;
+border-radius: 12px;
+
+}
+.logo10{
+    width: 256px;
+    height: 144px;
+    border-radius: 12px;
+
+}
+.logo11{
+    width: 256px;
+height: 144px;
+border-radius: 12px;
+
+}
+.logo12{
+    width: 256px;
+height: 144px;
+border-radius: 12px;
+
+}
+
+.cards{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+}
+.game-card{
+    width:256px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.game-card2{
+    width:256px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.game-card .logo12{
+    width:100%;
+    height:144px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+}
+.game-title{
+    font-family: Sora, sans-serif;
+    font-weight:700;
+    font-size:16px;
+    color:#E5E2E1;
+}
+.game-meta{
+    font-family: Hanken Grotesk, sans-serif;
+    font-size:12px;
+    color:#d9d9d9;
+}
+.logo13{
+    width: 12px;
+    height: 11px;
+}
+.game-percentage{
+    display: flex;
+}
+.asd{
+    font-family: Hanken Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+color: #E7BDB7;
+margin-left: 8px;
+margin-top: 0px;
+
+
+}
+.ase{
+    font-family: Hanken Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E7BDB7;
+
+}
+.cards2{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+}
+.game-card3{
+    width: 288px;
+    height: 363px;
+    border-radius: 12px;
+    border-width: 1px;
+    background: #201F1F;
+    border: 1px solid #5D3F3B;
+
+}
+.game-title2{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    margin-left: 16px;
+    margin-top: 16px;
+
+
+}
+.game-percentage2{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+.ase{
+    margin-left: 4px;
+    margin-bottom: 16px;
+}
+.Recommended{
+    font-family: Sora;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.32px;
+vertical-align: middle;
+color: #E5E2E1;
+margin-top: 48px;
+margin-bottom: 24px;
+
+
+}
+.logo101{
+    display: none;
+}
+.logo120{
+    display: none;
+}
+.logo140{
+    display: none;
+}
+.Welcome{
+    display: none;
+}
+.logo505{
+    display: none;
+}
+.logo606{
+    display: none;
+}
+@media (max-width: 390px) {
+    .von{
+        display: absolute;
+        width: 390px;
+        height: 1268px;
+        max-width: 448px;
+        padding-top: 80px;
+        padding-right: 16px;
+        padding-bottom: 160px;
+        background-color: #131313;
+
+
+    }
+    .header{
+        width: 390px;
+        height: 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .logo101{
+        display:flex;
+        width: 32px;
+        height: 32px;
+        margin-left: 16px;
+    }
+    .logo1{
+        display:flex;
+        width: 82px;
+        height: 28px;
+        margin-left: 12px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .search-input{
+        display: none;
+    }
+    .search-icon{
+        background: #E5E2E1;
+        Width: 18px;
+        Height: 18px;
+    }
+    .logo3{
+        display: none;
+    }
+    .logo2{
+        Display: none;
+    }
+    .logo4{
+        display: none;
+    }
+    .logo5{
+        display: none;
+    }
+    .logo6{
+        display: none;
+    }
+
+    .player{
+        width: 358px;
+        height: 104px;
+        border-radius: 12px;
+        background: #2A2A2A;
+        border-left: 4px solid #E2231A;
+        display : flex;
+        margin-right: 16px;
+        margin-top: 16px;
+    }
+    .logo505{
+        display: flex;
+    width: 96px;
+    height: 40px;
+    gap: 16px;
+    }
+    .Welcome{
+        display: flex;
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #E7BDB7;
+    width: 306px;
+    height: 20px;
+    margin-left: 24px;
+    margin-top: 24px;
+    }
+    .Ready{
+        display: none;
+    }
+    .qwe{
+        display: none;
+    }
+    .Hello{
+        font-family: Sora;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    margin-top: 4px;
+    }
+    .logo606{
+        display: flex;
+    }
+    .Continue{
+        width: 358px;
+    height: 28px;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+
+    }
+    .cards{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .game-card2{
+        display:none
+    }
+    .game-card .logo12{
+        display:none
+    }
+    .game-percentage{
+        display:none
+    }
+    .logo120{
+        display: block;
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .continue{
+    width: 358PX;
+    height: 240PX;
+    }
+    .game-card{
+        display: flex;
+        flex: 0 0 160px;
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .cards2{
+        width: 358px;
+        height: 487.5px;
+        gap: 16px;
+        display: flex;
+    }
+    .game-card3{
+        display: none;
+    }
+    .Recommended{
+        margin-top: 244px;
+    }
+    .game-title{
+        font-family: Hanken Grotesk;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #E5E2E1;
+    }
+    .logo140{
+        display: flex;
+    }
+
+
+    
+}
