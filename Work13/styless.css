@@ -1,0 +1,257 @@
+body{
+    margin-top: 30px;
+    background-color: gray;
+}
+
+
+.card{
+    background-color: #000000;
+    width: 1300px;
+    height: 545px;
+    left: 1849px;
+    border-radius: 32px;
+    align-items: center;
+    display: flex;
+    gap: 53px;
+}
+.Gear{
+    width:fit-content;
+    height: 27;
+    left: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    Background: #191919;
+    padding: 0px 16px 0px 16px;
+    margin-bottom: 48px;
+
+}
+.Episode{
+    color: #118DA8;
+    width: 66;
+    height: 27;
+    top: -0.44px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+.Title{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    width: 620px;
+
+}
+.subtitle{
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+color: #FFFFFF;
+margin-top: 28px;
+width: 720px;
+
+}
+.btn{
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+    left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 18px;
+}
+.card-img{
+    margin-left: 40px;
+
+}
+.card1{
+    background-color:#E1EDE6;
+    width: fit-content;
+    padding: 20px 20px 30px 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 514px;
+}
+.Anry{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #86928B;
+    margin-top: 15px;
+}
+.Dama{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #2C2D35;
+    margin-top: 10px;
+}
+.Paper{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #2C2D35;
+    margin-top: 10px;
+}
+.Cost{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #598D66;
+    margin-top: 30px;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    top: 434px;
+    left: 20px;
+    border-width: 1px;
+    padding-right: 60px;
+    padding-left: 60px;
+    gap: 6px;
+    border: 1px solid #598D66;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #598D66;
+    background-color: transparent;
+}
+.card2{
+    width: 380px;
+    height: 582px;
+    top: 766px;
+    left: 2289px;
+    box-shadow: 2px 8px 16px 0px #C2C6D00F;
+    background: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+
+}
+.cardall{
+    display: flex;
+}
+.card-img2{
+    width: 380;
+    height: 245;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.obk{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    color: #2E363E;
+    margin-top: 50px;
+    margin-left: 44px;
+
+}
+.text3{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2E363E;
+    margin-top: 12px;
+    margin-left: 44px;
+}
+.Cost2{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #2E363E;
+    margin-top: 24px;
+    margin-left: 44px;
+}
+.btn2{
+    width: 163;
+    height: 68;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 44px;
+    border: none;
+    background: #FED84C;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    color: #2E363E;
+}
+.card3{
+    width: 330px;
+    height: 400px;
+    top: 948px;
+    left: 2819px;
+    background: #0C0B15;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.block3{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img3{
+    width: 60px;
+    height: 60px;
+    top: 969.7px;
+    left: 2846.21px;
+    color: #06152B;
+    margin-top: 21.7px;
+    margin-left: 27.21px;
+}
+.card-img4{
+    width: 28px;
+    height: 6px;
+    top: 971px;
+    left: 3098px;
+    color: #99B2C6;
+    margin-top: 23px;
+    margin-right: 23px;
+}
+.About{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 18.3px;
+    margin-left: 26.5px;
+    font-family: 'Proxima Nova', sans-serif;
+} 
+.Jason{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #809FB8;
+    margin-top: 24.37px;
+    margin-left: 26.5px;
+}
+.text4{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #809FB8;
+    margin-top: 26.63px;
+    margin-left: 27.72px;
+
+
+}

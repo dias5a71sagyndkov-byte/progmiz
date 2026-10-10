@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: green;
+}
+#para1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#para2 {
+    font-size: 20px;
+}
+body {
+    background-image:url('Без названия.jpg');
+    background-size: cove;
+}
+div {
+    padding: 30px;
+}
+#div2 {
+    margin-top: 50px;
+}
+#div3 {
+    border: 2px solid black;
+}
+h3 {
+    width : 300px;
+    height : 400px;
+    overflow : hidden;
+}
