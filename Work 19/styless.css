@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background: #e7ecf5;
+    color: #1f2937;
+}
+
+.page {
+    max-width: 1000px;
+    padding: 48px 20px 80px;
+}
+
+.task {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 28px 30px;
+    margin-bottom: 28px;
+}
+
+h1, h2 {
+    font-family: "Montserrat", "Segoe UI", Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.section-label {
+    margin: 0 0 12px;
+    font-weight: 700;
+}
